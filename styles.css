@@ -19,10 +19,29 @@ body {
     justify-content: center;
     align-items: center;
     gap: 15px;
+    background-image: url(Background.jpg);
 }
-.button {
+
+.toolBar {
+    display: flex;
+    gap: 5px;
+}
+button {
     cursor: pointer;
     padding: 5px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.colorPicker {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: default;
+}
+
+input {
+    cursor: pointer;
 }
 .container {
     display: flex;
@@ -31,6 +50,7 @@ body {
     height: 810px;
     flex-shrink: 0;
     border: 5px solid black;
+    background-color: white;
 }
 
 .box {
