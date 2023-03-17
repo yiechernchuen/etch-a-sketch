@@ -40,6 +40,13 @@ button {
     cursor: default;
 }
 
+/* .darkenFactor {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: default;
+} */
+
 input {
     cursor: pointer;
 }
